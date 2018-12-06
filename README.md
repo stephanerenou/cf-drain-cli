@@ -95,6 +95,15 @@ OPTIONS:
    --type             Which log type to filter on (logs, metrics, all). Default is all.
 ```
 
+#### Delete Space Drain
+```
+cf delete-drain-space --help
+NAME:
+   delete-drain-space - Unbinds the service from applications and deletes the service.
+
+USAGE:
+   delete-drain-space <drain-name>
+```
 
 ### V2 Commands
 
